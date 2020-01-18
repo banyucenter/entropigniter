@@ -15,7 +15,7 @@
                                     </div>
                                     <ul class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="<?php echo base_url().'home'?>">Home</a></li>
                                         <li class="breadcrumb-item"><a href="javascript:">Tentang Aplikasi</a></li>
                                     </ul>
                                 </div>

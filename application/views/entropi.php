@@ -14,7 +14,7 @@
                                     </div>
                                     <ul class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="<?php echo base_url().'home'?>">Home</a></li>
                                         <li class="breadcrumb-item"><a href="javascript:">Kalkulator</a></li>
                                     </ul>
                                 </div>
@@ -78,7 +78,7 @@
                                                             <?php 
                                                             if($dstring->sudah_hitung==1){?>
                                                                 <a href="<?php echo base_url('home/detail/'.$dstring->id);?>" class="btn btn-success">DETAIL</a>
-                                                                <a href="<?php echo base_url('home/hapus/'.$dstring->id);?>" class="btn btn-danger">HAPUS</a>
+                                                                <a href="<?php echo base_url('home/hapus/'.$dstring->id);?>" class="btn btn-danger" onclick="return confirm('Yakin akan dihapus?');">HAPUS</a>
                                                            <?php 
                                                             }else {?>
                                                                 <a href="<?php echo base_url('home/hitung/'.$dstring->id);?>" class="btn btn-info" >HITUNG ENTROPY</a>
@@ -106,6 +106,8 @@
             </div>
         </div>
     </div>
+
+    
     <script src="<?php echo base_url().'assets/template/';?>assets/js/vendor-all.min.js"></script>
 	<script src="<?php echo base_url().'assets/template/';?>assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url().'assets/template/';?>assets/js/pcoded.min.js"></script>
