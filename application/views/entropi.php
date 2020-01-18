@@ -77,8 +77,9 @@
 															
 															
                                                              <a href="<?php echo base_url('home/hitung/'.$dstring->id);?>" class="btn btn-info" >ENTROPY</a>
-                                                            <a href="<?php echo base_url('home/detail/'.$dstring->id);?>" class="btn btn-success">DETAIL</a>
-                                                            </td>
+                                                             <a href="<?php echo base_url('home/detail/'.$dstring->id);?>" class="btn btn-success">DETAIL</a>
+                                                             <a href="<?php echo base_url('home/hapus/'.$dstring->id);?>" class="btn btn-danger">HAPUS</a>
+                                                        </td>
                                                         </tr>
                                                         <?php }?>
                                                     </tbody>

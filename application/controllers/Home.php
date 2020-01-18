@@ -56,7 +56,7 @@ class Home extends CI_Controller {
 		);
 		$this->EntropyModel->update_data($where,$cekhitung,'datastring');
 	
-		redirect('home');
+		redirect('home/detail/'.$id);
 
 	}
 
@@ -184,6 +184,12 @@ class Home extends CI_Controller {
 		$this->load->view('component/header');
 		$this->load->view('tentang');
 		
+	}
+
+	function hapus($id){
+		$where = array('id' => $id);
+		$this->EntropyModel->hapus_data($where,'datastring');
+		redirect('home');
 	}
 
 }
