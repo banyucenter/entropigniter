@@ -1,3 +1,4 @@
+//algoritma huffman
 var freq_history = [];
 var graph_history = [];
 var enc_dict = {};
