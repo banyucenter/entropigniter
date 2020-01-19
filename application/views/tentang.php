@@ -102,6 +102,69 @@
                                 
                             </div>
                             <!-- [ Main Content ] end -->
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Credit</h5>
+                                        </div>
+                                        
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+												<div class="form-group">
+                                                    <p> Pihak kontributor lain yang mensupport pembuatan aplikasi ini:</p>
+                                                <table class="table" id="example" class="display">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>No</th>
+                                                            <th>Nama</th>
+                                                            <th>Email</th>
+                                                            <th>Website</th>
+                                                            <th>Kontribusi</th>
+                                                        </tr>
+                                                    </thead>
+                                                    
+                                                    <tbody>
+                                                    
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Coded Themes</td>
+                                                            <td>codedthemes@gmail.com</td>
+                                                            <td>https://codedthemes.com/</td>
+                                                            <td>Template Website </td>
+                                                            
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Joaomfs</td>
+                                                            <td>-</td>
+                                                            <td>https://github.com/joaomfs/HuffmanJs</td>
+                                                            <td>Huffman with Javascript </td>
+                                                            
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Joao Paiva</td>
+                                                            <td>-</td>
+                                                            <td>https://github.com/joaopaiva/ShannonFanoJavascript</td>
+                                                            <td>Shannon Fano with Javascript </td>
+                                                            
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                </div> 
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <!-- Input group -->
+                                    
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>

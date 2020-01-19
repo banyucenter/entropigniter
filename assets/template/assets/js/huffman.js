@@ -209,11 +209,11 @@ function arrSum(arr) {
 	return sum;
 }
 
-function show_code() {
+function show_code(data) {
 	generate();
-	str = document.getElementById("input").value;
-	$("#hasilencode").text(encode(str));
-	$("#inputcode").val(encode(str));
+	data = document.getElementById("input").value;
+	$("#hasilencode").text(encode(data));
+	$("#inputcode").val(encode(data));
 }
 
 function show_decode() {

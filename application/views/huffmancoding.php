@@ -42,7 +42,7 @@
                                                             <label for="exampleInputEmail1">String</label>
                                                             <input type="text" name="input" id="input"  class="form-control" required placeholder="Masukan String">
                                                             <br>
-                                                            <button type="button" class="btn btn-primary" onclick="show_code()">Encode</button>
+                                                            <button type="button" class="btn btn-primary" onclick="show_code(getElementById('input').value)">Encode</button>
                                                 </div>
                                                
                                                 <div class="form-group">
