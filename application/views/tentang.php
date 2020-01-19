@@ -38,19 +38,68 @@
                                             <div class="row">
                                                 <div class="col-md-12">
 												<div class="form-group">
-                                                Entropi App merupakan aplikasi untuk Teori Informasi meliputi perhitungan entropi, algoritma shannon fano, algoritma huffman dan uniform coding.
-                                                Aplikasi dikembangkan dengan framework CodeIgniter berbasis PHP dan MySQL, namun untuk kalkulator
-                                                 algoritma seperti shannon fano, huffman dan uniform coding masih menggunakan javascript.Aplikasi dikembangkan berdasarkan rumus umum dalam teori informasi.<br><br>
-                                                 Hasil aplikasi ini tidak sepenuhnya dikembangkan sendiri, namun merupakan hasil pengembangan coding yang sudah orang lain buat.
-                                                            
-                                                </div>
-                                               
-                                                
+                                                <b>Entropi App</b> merupakan aplikasi untuk Teori Informasi meliputi perhitungan <i>entropi, algoritma shannon fano, algoritma huffman</i> dan <i>uniform coding</i>.
+                                                 Aplikasi dikembangkan dengan framework CodeIgniter berbasis PHP dan MySQL, namun untuk kalkulator
+                                                 algoritma seperti shannon fano, huffman coding dan uniform coding masih menggunakan javascript.
+                                                 Aplikasi dikembangkan berdasarkan rumus umum dalam teori informasi.<br><br>
+                                                 Hasil aplikasi ini tidak sepenuhnya dikembangkan sendiri, namun merupakan hasil pengembangan coding yang sudah orang lain buat dan diambil dari situs github. 
+                                                 Aplikasi masih banyak kekurangan yang harus diperbaiki. <br><br>
+
+                                                 Salam Coding @ipungdev
+                                                     
+                                                </div> 
                                         </div>
+                                        
                                     </div>
+                                    
                                     <!-- Input group -->
                                     
                                 </div>
+                                
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Contact US</h5>
+                                        </div>
+                                        
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+												<div class="form-group">
+                                                <table class="table" id="example" class="display">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>No</th>
+                                                            <th>Nama</th>
+                                                            <th>No. Handphone</th>
+                                                            <th>Email</th>
+                                                        </tr>
+                                                    </thead>
+                                                    
+                                                    <tbody>
+                                                    
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Purwono, S.Kom.</td>
+                                                            <td>+62821 1394 0427</td>
+                                                            <td>purwono@webmail.mti.uad.ac.id</td>
+                                                            
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                </div> 
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <!-- Input group -->
+                                    
+                                </div>
+                                
                             </div>
                             <!-- [ Main Content ] end -->
                         </div>
