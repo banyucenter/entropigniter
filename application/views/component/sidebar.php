@@ -4,7 +4,7 @@
             <div class="navbar-brand header-logo">
                <a href="<?php echo base_url().'home'?>" class="b-brand">
                    <div class="b-bg">
-                       <i class="feather icon-trending-up"></i>
+                       <i class="feather icon-cpu"></i>
                    </div>
                    <span class="b-title">EntropIgniter</span>
                   
@@ -19,20 +19,20 @@
                     </li>
                     <li data-username="form elements advance componant validation masking wizard picker select" class="nav-item active">
                         <a href="<?php echo base_url().'home'?>" class="nav-link "><span class="pcoded-micon">
-                            <i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Home</span></a>
+                            <i class="feather icon-home"></i></span><span class="pcoded-mtext">Home</span></a>
                     </li>
                 
                     <li data-username="form elements advance componant validation masking wizard picker select" class="nav-item active">
                         <a href="<?php echo base_url().'home/shannonfano'?>" class="nav-link "><span class="pcoded-micon">
-                            <i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Shannon Fano</span></a>
+                            <i class="feather icon-layers"></i></span><span class="pcoded-mtext">Shannon Fano</span></a>
                     </li>
                     <li data-username="form elements advance componant validation masking wizard picker select" class="nav-item active">
                         <a href="<?php echo base_url().'home/huffmancoding'?>" class="nav-link "><span class="pcoded-micon">
-                            <i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Huffman Coding</span></a>
+                            <i class="feather icon-package"></i></span><span class="pcoded-mtext">Huffman Coding</span></a>
                     </li>
                     <li data-username="form elements advance componant validation masking wizard picker select" class="nav-item active">
                         <a href="<?php echo base_url().'home/uniformcoding'?>" class="nav-link "><span class="pcoded-micon">
-                            <i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Uniform Coding</span></a>
+                            <i class="feather icon-grid"></i></span><span class="pcoded-mtext">Uniform Coding</span></a>
                     </li>
                     <li data-username="form elements advance componant validation masking wizard picker select" class="nav-item active">
                         <a href="<?php echo base_url().'home/tentang'?>" class="nav-link "><span class="pcoded-micon">
