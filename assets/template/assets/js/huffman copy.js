@@ -87,15 +87,15 @@ function make_frequency(str) {
 		frequency.push(new TreeNode(key, dict[key]));
 		asimbol += key + "<hr>";
 		akemunculan += dict[key] + "<hr>";
-
+		
 
 		probabilitas += dict[key] / str.length + "<hr>";
 		kemunculan.push([dict[key] / str.length, key]);
-
+		
 	}
 
-	//console.log("Kemunculan:")
-	//console.log(kemunculan);
+	console.log("Kemunculan:")
+	console.log(kemunculan);
 
 	document.getElementById("simbol").innerHTML = asimbol;
 	document.getElementById("kemunculan").innerHTML = akemunculan;
@@ -181,8 +181,8 @@ function generate() {
 		arr2 = dectdictnya,
 		inventory = Object.create(null);
 
-	//console.log(arr1);
-	//console.log(arr2);
+	console.log(arr1);
+	console.log(arr2);
 
 	arr1.forEach(function (a) {
 		this[a[1]] = a;
@@ -198,13 +198,8 @@ function generate() {
 
 	var lavg = 0;
 
-	console.log(arr1);
-
-	for (var i = 0; i < arr1.length; i++) {
-		var x = arr1[i][0];
-		lavg += x;
-	}
-
+	x = arrSum(arr1)
+	lavg = x;
 	$('#lavg').html(lavg);
 	$('#jumlahbit').html(lavg * str.length);
 }

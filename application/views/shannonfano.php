@@ -66,7 +66,7 @@
                                                     <tbody>
                                                         <tr>
                                                             <td> <p id="bit_code"></p></td>
-                                                            <td> <p id="entropy"></p></td>
+                                                            <td> <p id="Lavg"></p></td>
                                                             <td> <p id="jumlahbit"></p></td>
                                                         </tr>
                                                     </tbody>

@@ -244,7 +244,7 @@ function shannon_fano(data) {
         average += x;
         lavg = average;
 
-        $('#entropy').html(lavg);
+        $('#Lavg').html(lavg);
         $('#jumlahbit').html(lavg * data.length);
     } 
 }
