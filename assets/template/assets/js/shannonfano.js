@@ -144,7 +144,8 @@ function sf_pp(data) {
         sorted.push([char,Math.round(freq[char]* data.length),freq[char]])
     sorted.sort(function (a, b) { return b[1] - a[1] })
 
-    
+    console.log("soreted")
+    console.log(sorted)
     return sorted;
 }
 
@@ -207,13 +208,15 @@ function decompress(data) {
 
     word = caracters.join("");
 
-    $('#result_decode').html("Hasil Decode: " + word);
+    $('#result_decode').html(word);
     return word;
 }
 
 //Fungsi encoding string
 function shannon_fano(data) {
     var freq = sf_pp(data);
+    console.log("freq")
+    console.log(freq)
     //cetak tabel frekuensi
     $('#freq_table').html(freqsTable(freq));
     //buat pohon biner
@@ -237,13 +240,10 @@ function shannon_fano(data) {
 
     for (i = 0; freq.length; i++) {
 
-        console.log("code:"+codes[i][2]);
-        console.log("freq:"+freq[i][1]);
-        var x = freq[i][1]* codes[i][2];
+        var x = freq[i][2]* codes[i][2];
         average += x;
-        lavg = average/data.length;
+        lavg = average;
 
-        console.log(lavg * data.length);
         $('#entropy').html(lavg);
         $('#jumlahbit').html(lavg * data.length);
     } 

@@ -64,8 +64,8 @@ function make_codes_helper(root, dict, revdict, current_code) {
 			dict[root.chr] = current_code;
 			revdict[current_code] = root.chr;
 		} else {
-			make_codes_helper(root.left, dict, revdict, current_code + "0");
-			make_codes_helper(root.right, dict, revdict, current_code + "1");
+			make_codes_helper(root.left, dict, revdict, current_code + "1");
+			make_codes_helper(root.right, dict, revdict, current_code + "0");
 		}
 	}
 }
@@ -87,10 +87,15 @@ function make_frequency(str) {
 		frequency.push(new TreeNode(key, dict[key]));
 		asimbol += key + "<hr>";
 		akemunculan += dict[key] + "<hr>";
-		kemunculan.push([dict[key], key]);
+		
 
-		probabilitas += dict[key] / str.length + "<hr>";
+		probabilitas +=  + "<hr>";
+		kemunculan.push([dict[key] / str.length, key]);
+		
 	}
+
+	console.log("Kemunculan:")
+	console.log(kemunculan);
 
 	document.getElementById("simbol").innerHTML = asimbol;
 	document.getElementById("kemunculan").innerHTML = akemunculan;
@@ -191,7 +196,7 @@ function generate() {
 	var lavg = 0;
 
 	x = arrSum(arr1)
-	lavg = x / str.length;
+	lavg = x;
 	$('#lavg').html(lavg);
 	$('#jumlahbit').html(lavg * str.length);
 }

@@ -31,18 +31,22 @@
                                     
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5>Hasil Perhitungan</h5>
+                                            <h5>Algoritma Shannon Fano</h5>
                                         </div>
                                         
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-12">
-												<div class="form-group">
-                                                            <label for="exampleInputEmail1">String</label>
+                                                <div class="form-group">
+                                                Algoritma Shannon-Fano coding ditemukan oleh Claude Shannon (bapak teori informasi) dan Robert Fano pada tahun 1949. Pada dasarnya metode ini menggantikan setiap simbol dengan sebuah alternatif kode biner yang panjangnya ditentukan berdasarkan probabilitas dari simbol tersebut. Di bidang kompresi data, Shannon-Fano coding adalah teknik untuk membangun sebuah kode awalan didasarkan pada seperangkat simbol dan probabilitas (diperkirakan atau diukur).
+                                                <div class="form-group">
+                                                    <br>
+                                                <div class="form-group">
+                                                            <label for="exampleInputEmail1"><b>Masukan String</b></label>
                                                             <input type="text" name="input" id="input"  class="form-control" required placeholder="Masukan String">
                                                             <br>
                                                             <button type="button" class="btn btn-primary" onclick="shannon_fano(getElementById('input').value)">Encode</button>
-                                                </div>
+                                                            <div class="form-group">
 
                                                 <div class="form-group">
                                                 <div id="freq_table"></div>

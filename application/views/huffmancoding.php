@@ -31,15 +31,19 @@
                                     
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5>Hasil Perhitungan</h5>
+                                            <h5>Algoritma Huffman Coding</h5>
                                         </div>
                                         
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-12">
+                                                <div class="form-group">
+                                                Dalam ilmu komputer dan teori informasi, Huffman coding adalah sebuah tipe code yang optimal yang biasanya digunakan untuk lossless data compression. Algoritma Huffman Coding ditemukan oleh David A. Huffman pada saat ia masih seorang mahasiswa di MIT, ia menerbitkan karyanya di tahun 1952 yang berjudul “A Method for the Construction of Minimum Redundancy Codes”.
+                                                <div class="form-group">
+                                                    <br>
 												<div class="form-group">
 
-                                                            <label for="exampleInputEmail1">String</label>
+                                                            <label for="exampleInputEmail1"><b>Masukan String</b></label>
                                                             <input type="text" name="input" id="input"  class="form-control" required placeholder="Masukan String">
                                                             <br>
                                                             <button type="button" class="btn btn-primary" onclick="show_code(getElementById('input').value)">Encode</button>
